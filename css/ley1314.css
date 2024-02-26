@@ -1,0 +1,25 @@
+.d-flex{
+    margin-top: 5%;
+    flex-direction: column;
+}
+
+.d-flex h3{
+    margin-bottom: 5%;
+}
+
+.d-flex p{
+    margin-bottom: 5%;
+}
+.card-body{
+    flex-direction: row !important;
+}
+
+.card-body .img{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body .img img{
+    margin-top: 10%;
+    margin-bottom: 5%;
+}

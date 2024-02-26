@@ -1,0 +1,15 @@
+.card .card-body .img-contribucion img{
+  width: 333px;
+  height: 227px;
+  border-radius: 5px;
+  border: 1px;
+}
+
+.card .card-body .tab-content-1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+

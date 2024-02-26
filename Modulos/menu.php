@@ -72,8 +72,8 @@
                             <i class='bx bxs-chevron-down arrow'></i>
                         </div>
                         <ul class='sub-menu'>
-                            <li><a class='link_name' href='#'>Tributaria 1</a></li> 
-                            <li><a class='link_name' href='#'>Tributaria 2</a></li> 
+                            <li><a class='link_name' href='../Views/tributaria_1.php'>Tributaria 1</a></li> 
+                            <li><a class='link_name' href='../Views/tributaria_2.php'>Tributaria 2</a></li> 
                         </ul>
                     </li>
                     <li>
@@ -91,7 +91,7 @@
                 <li>
                 <div class="profile-details">
                     <div class="profile-content">
-                    <img src="images/user.png" alt="profileImg" />
+                    <img src="../images/user.png" alt="profileImg" />
                     </div>
                     <div class="name-job">
                     <div class="profile_name" style='display: flex;'>

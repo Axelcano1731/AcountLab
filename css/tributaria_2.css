@@ -1,0 +1,14 @@
+.card{
+    padding-top: 3% !important;
+    padding-left: 2.5% !important;
+}
+
+.card .img{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.card .card-body .tab-content p {
+    margin-top: 3% !important;
+}
