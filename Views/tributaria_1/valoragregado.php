@@ -6,20 +6,19 @@
         @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
     </style>
     <?php
-    include("../Modulos/head.php");
+    include("../../Modulos/head.php");
     ?>
-    <link rel="stylesheet" href="../css/laboratorio.css">
-    <link rel="stylesheet" href="../css/Style.css">
-    <link rel="stylesheet" href="../css/tiposStyle.css">
-    <link rel="stylesheet" href="../css/leyesStyle.css">
+    <link rel="stylesheet" href="../../css/laboratorio.css">
+    <link rel="stylesheet" href="../../css/Style.css">
+    <link rel="stylesheet" href="../../css/tiposStyle.css">
 </head>
 <body>
     <?php
-    include("../Modulos/menu.php");
+    include("../../Modulos/menu.php");
     ?>
     <div class="main-content">
         <?php
-            include("../Modulos/header.php");
+            include("../../Modulos/header.php");
         ?>
             <main>
                 <div class="cards">
@@ -38,31 +37,25 @@
                             <div class="card-body">
                                 <div class="d-flex">
                                     <div class="tab-content">
-                                        <h3>Estatuto Tributario</h3>
-                                        <p>El Estatuto Tributario es la principal ley que regula los impuestos en<br>
-                                        Colombia. Contiene disposiciones sobre el impuesto sobre la Renta y<br>
-                                        Complementarios, el impuesto al valor Agregado (IVA), el impuesto de<br>
-                                        Timbre,entre otros.
+                                        <h3>Impuesto al valor agregado</h3>
+                                        <p>Es un impuesto indrecto sobre el consumo que se aplica a la venta de<br>
+                                        bienes y servicios. Las tasas de IVA pueden variar dependiendo del tipo de bien o servicio.
+                                        </p>
+                                        <p>
+                                            Algunos productos y servicios pueden estar exentos de IVA o tener tasas<br>
+                                            reducidas.
                                         </p>
                                     </div>
                                     <div class="img">
-                                        <img src="../images/Color_negro.jpg">
+                                        <img src="../../images/impuesto_vagregado.png">
                                     </div>
                                 </div>
-                                <div class="d-flex">
-                                    <div class="tab-content">
-                                        <h3>Código de Comercio</h3>
-                                        <p>Incluye disposiciones relacionadas con impuestos y obligaciones fiscales<br>
-                                        para la empresa
-                                        </p>
-                                    </div>
-                                    <div class="img">
-                                        <img src="../images/Color_negro.jpg">
-                                    </div>
+                                <div class="img-black">
+                                    <img src="../../images/Color_negro.jpg">
                                 </div>
                             </div>
                             <div class="card-footer">
-                                <a class="btn" href="#" role="button">COMPLETAR ACTIVIDAD</a>
+                                <a class="btn" href="impuestopropiedad.php" role="button">COMPLETAR ACTIVIDAD</a>
                             </div>
                         </div>
                     </div>
@@ -71,6 +64,6 @@
         </div>
 </body>
 <?php
-  include("../Modulos/js.php");
+  include("../../Modulos/js.php");
 ?>
 </html>

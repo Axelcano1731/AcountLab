@@ -6,19 +6,19 @@
         @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
     </style>
     <?php
-    include("../Modulos/head.php");
+    include("../../Modulos/head.php");
     ?>
-    <link rel="stylesheet" href="../css/laboratorio.css">
-    <link rel="stylesheet" href="../css/Style.css">
-    <link rel="stylesheet" href="../css/tiposStyle.css">
+    <link rel="stylesheet" href="../../css/laboratorio.css">
+    <link rel="stylesheet" href="../../css/Style.css">
+    <link rel="stylesheet" href="../../css/tiposStyle.css">
 </head>
 <body>
     <?php
-    include("../Modulos/menu.php");
+    include("../../Modulos/menu.php");
     ?>
     <div class="main-content">
         <?php
-            include("../Modulos/header.php");
+            include("../../Modulos/header.php");
         ?>
             <main>
                 <div class="cards">
@@ -37,32 +37,29 @@
                             <div class="card-body">
                                 <div class="d-flex">
                                     <div class="tab-content">
-                                        <h3>Impuesto de renta</h3>
-                                        <p>Valor que se aplica sobre las ganancias que obtienen las personas<br>
-                                        naturales y sociedade
+                                        <h3>Impuesto de industria y comercio</h3>
+                                        <p>Es de carácter mnicipal y recae sobe las actividades industriales,<br>
+                                        comerciales y de servicios realizados en el ámbito local. El impuesto al<br>
+                                        consumo en Colombia puede aplicarse a diversos bienes y servicios, y la<br>
+                                        tasa ouede variar según la industria del producto. Algunos son:
                                         </p>
-                                        <h3>Topes</h3>
                                         <ul>
-                                            <li>Patrimonio bruto superior a 4.500 UVT</li>
-                                            <li>Ingresos brutos superior a 4.500 UVT</li>
-                                            <li>Consumos de tarjetas de gredito superior a 1.400 UVT</li>
-                                            <li>Valor total de compras y consumo superior a 1.400 UVT</li>
-                                            <li>Acumulado de consignaciones superior a 1.400 UVT</li>
+                                            <li>Licores</li>
+                                            <li>Combustibles</li>
+                                            <li>Juegos de azar</li>
+                                            <li>Tabaco y cigarillos</li>
                                         </ul>
                                     </div>
                                     <div class="img">
-                                        <img src="../images/impuesto_renta.png">
+                                        <img src="../../images/industria_comercio.png">
                                     </div>
                                 </div>
-                                <div>
-                                    <h3>Recomendaciones</h3>
-                                    <p>Revisar el calendario tributario que se puede encontrar en la DIAN y presente la declaración a tiempo, para<br>
-                                    no incurrir en multas ni sanciones.
-                                    </p>
+                                <div class="img-white">
+                                    <img src="../../images/industria.png">
                                 </div>
                             </div>
                             <div class="card-footer">
-                                <a class="btn" href="#" role="button">COMPLETAR ACTIVIDAD</a>
+                                <a class="btn" href="consumo.php" role="button">COMPLETAR ACTIVIDAD</a>
                             </div>
                         </div>
                     </div>
@@ -71,6 +68,6 @@
         </div>
 </body>
 <?php
-  include("../Modulos/js.php");
+  include("../../Modulos/js.php");
 ?>
 </html>

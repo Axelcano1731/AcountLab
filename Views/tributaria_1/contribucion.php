@@ -6,19 +6,19 @@
         @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
     </style>
     <?php
-    include("../Modulos/head.php");
+    include("../../Modulos/head.php");
     ?>
-    <link rel="stylesheet" href="../css/laboratorio.css">
-    <link rel="stylesheet" href="../css/Style.css">
-    <link rel="stylesheet" href="../css/tasasStyle.css">
+    <link rel="stylesheet" href="../../css/laboratorio.css">
+    <link rel="stylesheet" href="../../css/Style.css">
+    <link rel="stylesheet" href="../../css/contribucionStyle.css">
 </head>
 <body>
     <?php
-    include("../Modulos/menu.php");
+    include("../../Modulos/menu.php");
     ?>
     <div class="main-content">
         <?php
-            include("../Modulos/header.php");
+            include("../../Modulos/header.php");
         ?>
             <main>
                 <div class="cards">
@@ -47,19 +47,17 @@
                             </div>
                             <div class="card-body">
                                 <div class="tab-content-1">
-                                    <h3>Tasas</h3>
-                                    <p>Aportes que se pegan al estado como remuneración al servicio prestado<br> </p>
-                                    <h3>Ejemplos:</h3>
-                                    <p>Peajes (Producto de la decisión propia de viajar)<br> 
-                                    Gasolina (Producto de la decisión de tener vehiculo)
-                                    </p>
+                                    <h3>Contribuciones</h3>
+                                    <p>Tiene como hecho generador beneficios derivados de la realización de obras públicas o de actividades estables.<br></p>
+                                    <h4>Ejemplo:</h4>
+                                    <p>Valoración</p>
                                 </div>
-                                <div class="img-tasa">
-                                    <img src="../images/tasas.png">
+                                <div class="img-contribucion">
+                                    <img src="../../images/contribucion.png">
                                 </div>
                             </div>
                             <div class="card-footer">
-                                <a class="btn" href="#" role="button">COMPLETAR ACTIVIDAD</a>
+                                <a class="btn" href="introduccion-quiz1.php" role="button">COMPLETAR ACTIVIDAD</a>
                             </div>
                         </div>
                     </div>
@@ -68,6 +66,6 @@
         </div>
 </body>
 <?php
-  include("../Modulos/js.php");
+  include("../../Modulos/js.php");
 ?>
 </html>

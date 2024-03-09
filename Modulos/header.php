@@ -8,6 +8,6 @@
                     </label>
                 </div>
                 <div class="logo-wrapper">
-                    <img src="../images/logo.png" width="250px" height="50px" alt="" />
+                    <img src="../../images/logo.png" width="250px" height="50px" alt="" />
                 </div>
             </header>

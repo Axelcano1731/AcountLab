@@ -6,18 +6,19 @@
         @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
     </style>
     <?php
-    include("../Modulos/head.php");
+    include("../../Modulos/head.php");
     ?>
-    <link rel="stylesheet" href="../css/laboratorio.css">
-    <link rel="stylesheet" href="../css/Style.css">
+    <link rel="stylesheet" href="../../css/laboratorio.css">
+    <link rel="stylesheet" href="../../css/Style.css">
+    <link rel="stylesheet" href="../../css/tasasStyle.css">
 </head>
 <body>
     <?php
-    include("../Modulos/menu.php");
+    include("../../Modulos/menu.php");
     ?>
     <div class="main-content">
         <?php
-            include("../Modulos/header.php");
+            include("../../Modulos/header.php");
         ?>
             <main>
                 <div class="cards">
@@ -45,20 +46,20 @@
                                 </ul>
                             </div>
                             <div class="card-body">
-                                <div class="tab-content">
-                                    <h3>Impostancia de los impuestos</h3>
-                                    <p>Los impuestos son la principal fuente de ingresos del Estado.Sin la<br> 
-                                    tributacion, el Estado no tendría suficiente dinero para garantizar bienes y<br> 
-                                    servicios basicos para la poblacion, ni para mejorar la infrastructura del <br> 
-                                    pais.
+                                <div class="tab-content-1">
+                                    <h3>Tasas</h3>
+                                    <p>Aportes que se pegan al estado como remuneración al servicio prestado<br> </p>
+                                    <h3>Ejemplos:</h3>
+                                    <p>Peajes (Producto de la decisión propia de viajar)<br> 
+                                    Gasolina (Producto de la decisión de tener vehiculo)
                                     </p>
                                 </div>
-                                <div class="img">
-                                    <img src="../images/Impuesto_Pago.jpg">
+                                <div class="img-tasa">
+                                    <img src="../../images/tasas.png">
                                 </div>
                             </div>
                             <div class="card-footer">
-                                <a class="btn" href="#" role="button">COMPLETAR ACTIVIDAD</a>
+                                <a class="btn" href="contribucion.php" role="button">COMPLETAR ACTIVIDAD</a>
                             </div>
                         </div>
                     </div>
@@ -67,6 +68,6 @@
         </div>
 </body>
 <?php
-  include("../Modulos/js.php");
+  include("../../Modulos/js.php");
 ?>
 </html>

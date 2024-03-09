@@ -6,19 +6,19 @@
         @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
     </style>
     <?php
-    include("../Modulos/head.php");
+    include("../../Modulos/head.php");
     ?>
-    <link rel="stylesheet" href="../css/laboratorio.css">
-    <link rel="stylesheet" href="../css/Style.css">
-    <link rel="stylesheet" href="../css/tiposStyle.css">
+    <link rel="stylesheet" href="../../css/laboratorio.css">
+    <link rel="stylesheet" href="../../css/Style.css">
+    <link rel="stylesheet" href="../../css/tiposStyle.css">
 </head>
 <body>
     <?php
-    include("../Modulos/menu.php");
+    include("../../Modulos/menu.php");
     ?>
     <div class="main-content">
         <?php
-            include("../Modulos/header.php");
+            include("../../Modulos/header.php");
         ?>
             <main>
                 <div class="cards">
@@ -47,7 +47,7 @@
                                         </p>
                                     </div>
                                     <div class="img">
-                                        <img src="../images/Color_negro.jpg">
+                                        <img src="../../images/Color_negro.jpg">
                                     </div>
                                 </div>
                                 <div>
@@ -60,7 +60,7 @@
                                 </div>
                             </div>
                             <div class="card-footer">
-                                <a class="btn" href="#" role="button">COMPLETAR ACTIVIDAD</a>
+                                <a class="btn" href="leyes.php" role="button">COMPLETAR ACTIVIDAD</a>
                             </div>
                         </div>
                     </div>
@@ -69,6 +69,6 @@
         </div>
 </body>
 <?php
-  include("../Modulos/js.php");
+  include("../../Modulos/js.php");
 ?>
 </html>

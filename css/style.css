@@ -1063,24 +1063,29 @@ ol {
     margin: 0;
     padding-left: 16px;
     padding-right: 16px;
-    background-color: #0f64d4;
+    background-color: #0378E4;
     width: auto;
 }
 .btn.btn-outline {
-    color: #00135b;
+    color: #0378E4;
     background-color: transparent;
     border: 1px solid #eaeaea;
     opacity: 1;
     filter: alpha(opacity=100);
+}
+
+.btn:hover{
+  border-color: #0378E4;
+  background-color: #FFFFFF;
 }
 .btn.btn-outline:hover,
 .btn.btn-outline:focus,
 .btn.btn-outline:active,
 .btn.btn-outline.active,
 .open>.btn.btn-outline.dropdown-toggle {
-    background-color: #00135b;
+    background-color: #0378E4;
     color: #FFFFFF;
-    border: 1px solid #797979;
+    border: 3px solid #797979;
 }
 /*fin estilos boostrap*/
 .card .map {

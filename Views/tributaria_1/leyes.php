@@ -6,19 +6,20 @@
         @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
     </style>
     <?php
-    include("../Modulos/head.php");
+    include("../../Modulos/head.php");
     ?>
-    <link rel="stylesheet" href="../css/laboratorio.css">
-    <link rel="stylesheet" href="../css/Style.css">
-    <link rel="stylesheet" href="../css/tiposStyle.css">
+    <link rel="stylesheet" href="../../css/laboratorio.css">
+    <link rel="stylesheet" href="../../css/Style.css">
+    <link rel="stylesheet" href="../../css/tiposStyle.css">
+    <link rel="stylesheet" href="../../css/leyesStyle.css">
 </head>
 <body>
     <?php
-    include("../Modulos/menu.php");
+    include("../../Modulos/menu.php");
     ?>
     <div class="main-content">
         <?php
-            include("../Modulos/header.php");
+            include("../../Modulos/header.php");
         ?>
             <main>
                 <div class="cards">
@@ -37,29 +38,31 @@
                             <div class="card-body">
                                 <div class="d-flex">
                                     <div class="tab-content">
-                                        <h3>Impuesto de industria y comercio</h3>
-                                        <p>Es de carácter mnicipal y recae sobe las actividades industriales,<br>
-                                        comerciales y de servicios realizados en el ámbito local. El impuesto al<br>
-                                        consumo en Colombia puede aplicarse a diversos bienes y servicios, y la<br>
-                                        tasa ouede variar según la industria del producto. Algunos son:
+                                        <h3>Estatuto Tributario</h3>
+                                        <p>El Estatuto Tributario es la principal ley que regula los impuestos en<br>
+                                        Colombia. Contiene disposiciones sobre el impuesto sobre la Renta y<br>
+                                        Complementarios, el impuesto al valor Agregado (IVA), el impuesto de<br>
+                                        Timbre,entre otros.
                                         </p>
-                                        <ul>
-                                            <li>Licores</li>
-                                            <li>Combustibles</li>
-                                            <li>Juegos de azar</li>
-                                            <li>Tabaco y cigarillos</li>
-                                        </ul>
                                     </div>
                                     <div class="img">
-                                        <img src="../images/industria_comercio.png">
+                                        <img src="../../images/Color_negro.jpg">
                                     </div>
                                 </div>
-                                <div class="img-white">
-                                    <img src="../images/industria.png">
+                                <div class="d-flex">
+                                    <div class="tab-content">
+                                        <h3>Código de Comercio</h3>
+                                        <p>Incluye disposiciones relacionadas con impuestos y obligaciones fiscales<br>
+                                        para la empresa
+                                        </p>
+                                    </div>
+                                    <div class="img">
+                                        <img src="../../images/Color_negro.jpg">
+                                    </div>
                                 </div>
                             </div>
                             <div class="card-footer">
-                                <a class="btn" href="#" role="button">COMPLETAR ACTIVIDAD</a>
+                                <a class="btn" href="ley1314.php" role="button">COMPLETAR ACTIVIDAD</a>
                             </div>
                         </div>
                     </div>
@@ -68,6 +71,6 @@
         </div>
 </body>
 <?php
-  include("../Modulos/js.php");
+  include("../../Modulos/js.php");
 ?>
 </html>

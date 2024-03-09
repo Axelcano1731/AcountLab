@@ -6,19 +6,18 @@
         @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
     </style>
     <?php
-    include("../Modulos/head.php");
+    include("../../Modulos/head.php");
     ?>
-    <link rel="stylesheet" href="../css/laboratorio.css">
-    <link rel="stylesheet" href="../css/Style.css">
-    <link rel="stylesheet" href="../css/contribucionStyle.css">
+    <link rel="stylesheet" href="../../css/laboratorio.css">
+    <link rel="stylesheet" href="../../css/Style.css">
 </head>
 <body>
     <?php
-    include("../Modulos/menu.php");
+    include("../../Modulos/menu.php");
     ?>
     <div class="main-content">
         <?php
-            include("../Modulos/header.php");
+            include("../../Modulos/header.php");
         ?>
             <main>
                 <div class="cards">
@@ -46,18 +45,20 @@
                                 </ul>
                             </div>
                             <div class="card-body">
-                                <div class="tab-content-1">
-                                    <h3>Contribuciones</h3>
-                                    <p>Tiene como hecho generador beneficios derivados de la realización de obras públicas o de actividades estables.<br></p>
-                                    <h4>Ejemplo:</h4>
-                                    <p>Valoración</p>
+                                <div class="tab-content">
+                                    <h3>Impostancia de los impuestos</h3>
+                                    <p>Los impuestos son la principal fuente de ingresos del Estado.Sin la<br> 
+                                    tributacion, el Estado no tendría suficiente dinero para garantizar bienes y<br> 
+                                    servicios basicos para la poblacion, ni para mejorar la infrastructura del <br> 
+                                    pais.
+                                    </p>
                                 </div>
-                                <div class="img-contribucion">
-                                    <img src="../images/contribucion.png">
+                                <div class="img">
+                                    <img src="../../images/Impuesto_Pago.jpg">
                                 </div>
                             </div>
                             <div class="card-footer">
-                                <a class="btn" href="#" role="button">COMPLETAR ACTIVIDAD</a>
+                                <a class="btn" href="impuestos.php" role="button">COMPLETAR ACTIVIDAD</a>
                             </div>
                         </div>
                     </div>
@@ -66,6 +67,6 @@
         </div>
 </body>
 <?php
-  include("../Modulos/js.php");
+  include("../../Modulos/js.php");
 ?>
 </html>

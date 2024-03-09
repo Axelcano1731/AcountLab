@@ -92,7 +92,7 @@
                             <i class='bx bxs-chevron-down arrow'></i>
                         </div>
                         <ul class='sub-menu'>
-                            <li><a class='link_name' href='#'>Tributaria 1</a></li> 
+                            <li><a class='link_name' href='/'>Tributaria 1</a></li> 
                             <li><a class='link_name' href='#'>Tributaria 2</a></li> 
                         </ul>
                     </li>
@@ -142,9 +142,9 @@
                     <div class="card-single">
                         <span>
                             <ul class='breadcrumb-item' aria-current='page'>
-                                <li><a href="Views/tributaria_1.php">Introduccion</a></li>
-                                <li><a href="Views/tipos.php">Tipos</a></li>
-                                <li><a href="Views/leyes.php">Leyes</a></li>
+                                <li><a href="Views/tributaria_1/tributaria_1.php">Introduccion</a></li>
+                                <li><a href="Views/tributaria_1/tipos.php">Tipos</a></li>
+                                <li><a href="Views/tributaria_1/leyes.php">Leyes</a></li>
                             </ul>
                         </span>
                     </div>
