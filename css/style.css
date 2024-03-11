@@ -260,10 +260,8 @@ header {
 .home-section {
   position: relative;
   background: #e4e9f7;
-  /*height: 100vh;*/
   left: 0;
   width: 100%;
-  /*width: calc(100% - 260px);*/
   transition: all 0.5s ease;
 }
 .sidebar.close ~ .home-section {
@@ -341,39 +339,30 @@ color:white;
   background-color: rgba(255, 255, 255, 0.12);
   }
 
-  .breadcrumb-item{
+  .card-single span .breadcrumb-item{
     display: flex;
-  }
-
-  .breadcrumb-item{
-    display: flex;
+    padding: 0;
     justify-content: center;
     align-content: center;
     background-color: rgb(238, 231, 231);
-    color: black;
-    padding: 10px;
   }
 
-  .breadcrumb-item:hover{
-    background-color:#00135b;
+  .card-single span{
+    padding: 0;
   }
-
-  .breadcrumb-item:hover a{
-    color: white;
-  }
-
   .breadcrumb-item a{
     text-decoration: none;
     color: black;
   }
 
-  .breadcrumb-item li:hover a {
-      color: white;
+  .breadcrumb-item .selected {
+    background-color: #00135b !important;
   }
 
-  .breadcrumb-item li{
-    margin-left: 10px;
+  .breadcrumb-item .selected a {
+      color: white !important;
   }
+
   .cardv {
     display: flex;
     flex-wrap: wrap;
@@ -1008,7 +997,7 @@ ol {
 
 .breadcrumb-item li {
   display: inline-block;
-  margin-right: 10px;
+  padding: 0.4rem;
 }
 .main-panel .contentsys {
   padding: 10px;
@@ -1144,4 +1133,24 @@ ol {
 
 .card .card-body.content-full-width .accordions .card-title a {
   padding: 0px 0px 5px 15px;
+}
+
+@media only screen and (max-width: 1600px){
+  .sidebar {
+    width: 300px;
+  }
+  .home-section{
+    padding-left: 40px;
+    width: 100%;
+  }
+  .home-section header {
+    left: 300px;
+    width: calc(100% - 300px);
+  }
+  .sidebar .nav-links li a .link_name {
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    transition: all 0.4s ease;
+  }
 }

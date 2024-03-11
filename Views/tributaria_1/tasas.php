@@ -20,12 +20,13 @@
         <?php
             include("../../Modulos/header.php");
         ?>
+        <section>
             <main>
                 <div class="cards">
                     <div class="card-single">
                         <span>
                             <ul class='breadcrumb-item' aria-current='page'>
-                                <li><a href="tributaria_1.php">Introduccion</a></li>
+                                <li class="selected"><a href="tributaria_1.php">Introduccion</a></li>
                                 <li><a href="tipos.php">Tipos</a></li>
                                 <li><a href="leyes.php">Leyes</a></li>
                             </ul>
@@ -64,8 +65,9 @@
                         </div>
                     </div>
                 </main>
-            </section
+            </section>
         </div>
+        <script src="../../js/Select.js"></script>
 </body>
 <?php
   include("../../Modulos/js.php");

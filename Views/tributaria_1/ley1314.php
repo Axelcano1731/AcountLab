@@ -21,6 +21,7 @@
         <?php
             include("../../Modulos/header.php");
         ?>
+        <section>
             <main>
                 <div class="cards">
                         <div class="card-single">
@@ -62,8 +63,9 @@
                         </div>
                     </div>
                 </main>
-            </section
+            </section>
         </div>
+        <script src="../../js/Leyes.js"></script>
 </body>
 <?php
   include("../../Modulos/js.php");

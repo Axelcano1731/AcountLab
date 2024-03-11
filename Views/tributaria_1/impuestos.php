@@ -9,8 +9,8 @@
     include("../../Modulos/head.php");
     ?>
     <link rel="stylesheet" href="../../css/laboratorio.css">
-    <link rel="stylesheet" href="../../css/Style.css">
     <link rel="stylesheet" href="../../css/impuestoStyle.css">
+    <link rel="stylesheet" href="../../css/Style.css">
 </head>
 <body>
     <?php
@@ -20,6 +20,7 @@
         <?php
             include("../../Modulos/header.php");
         ?>
+        <section>
             <main>
                 <div class="cards">
                     <div class="card-single">
@@ -82,8 +83,9 @@
                         </div>
                     </div>
                 </main>
-            </section
+            </section>
         </div>
+        <script src="../../js/Select.js"></script>
 </body>
 <?php
   include("../../Modulos/js.php");

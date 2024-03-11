@@ -64,8 +64,9 @@
                         </div>
                     </div>
                 </main>
-            </section
+            <section>
         </div>
+        <script src="../../js/Tipos.js"></script>
 </body>
 <?php
   include("../../Modulos/js.php");
